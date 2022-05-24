@@ -66,6 +66,11 @@ a:visited {
   border-radius: 0.345rem;
 }
 
+.icon img {
+  width: 27px;
+  height: 27px;
+}
+
 .wrapper {
   padding: var(--common-separation);
 }
