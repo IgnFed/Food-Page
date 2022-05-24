@@ -12,11 +12,15 @@
 <body>
   <div id="app" class="wrapper">
     <nav class="navigation">
-      <header class="navigation__profile_photo"></header>
+      <header class="navigation__profile_photo icon">
+        <img
+          src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387"
+          alt="Profile Photo">
+      </header>
       <div class="navigation__options">
         <ul>
           <li>
-            <a href="#" class="square_padding icon"><img src="./assets/images/home-svgrepo-com.svg"
+            <a href="#" class="square_padding icon active"><img src="./assets/images/home-svgrepo-com.svg"
                 alt="Home Icon" /></a>
           </li>
           <li>
@@ -34,7 +38,7 @@
         </ul>
       </div>
       <footer class="navigation__logout">
-        <button class="square_padding icon">
+        <button type="button" class="square_padding icon">
           <img src="./assets/images/turn-off-turn-on-power-off-on-shut-down-svgrepo-com.svg" alt="Log out">
         </button>
       </footer>
